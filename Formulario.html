@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="estilos-form.css" />
+</head>
+
+<body>
+    <img src="https://www.taxislibres.com.co/public/imagesNew/logo-escritorio.webp" alt="image" class="logo-app"></img>
+    <h1>Formulario de Registro</h1>
+<p>Por favor registre la siguiente información que es requerida</p>
+<form method="post" action="http://www.taxislibres.com.co">
+    <fieldset>
+        <label for="Nombre">Ingresa tu Nombre:<input id="Nombre" name="Nombre" type="text" required /></label>
+        <label for="Apellido">Ingresa tus Apellidos:<input id="Apellido" name="Apellido" type="text" required /></label>
+        <label for="Correo-electronico">Ingresa tu Correo electronico:<input id="Correo-electronico"
+                name="Correo-electronico" type="text" required /></label>
+        <label for="Contraseña">Crea tu contraseña:<input id="Contraseña" name="Contraseña" type="text"
+                required /></label>
+    </fieldset>
+    <fieldset>
+        <label for="Cuenta-personal"><input id="Cuenta-personal" type="radio" name="Tipo-de-cuenta"
+                class="inline" />Cuenta Personal</label>
+        <label for="Cuenta-empresarial"><input id="Cuenta-empresarial" type="radio" name="Tipo-de-cuenta"
+                class="inline" />Cuenta Empresarial</label>
+        <label form="terminos-y-condiciones"><input type="checkbox" required name="terminos-y-condiciones"
+                class="inline" />Acepto los <a href="http://www.taxislibres.com.co">terminos y condiciones</a></label>
+    </fieldset>
+    <fieldset>
+        <label for="foto-de-perfil">Sube tu foto de perfil: <input id="foto-de-perfil" type="file" name="file" />
+        </label>
+        <label for="edad">Ingresa tu edad <input id="edad" type="number" name="edad" min="18" max="75" /></label>
+    </fieldset>
+    <input type="submit" value="Submit" />
+</form>
+</body>
+
+</html>
