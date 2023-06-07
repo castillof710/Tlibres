@@ -57,8 +57,12 @@ input[type="submit"] {
     margin: 1em auto;
     height: 2em;
     font-size: 1.1rem;
-    background-color: #fff;
+    background-color: #cacf8f;
     border-color: #000;
     min-width: 300px;
+}
+
+input[type="radio"] {
+    transform: scale(0.6);
 }
 

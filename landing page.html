@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilos landin.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxis Libres Hackathon 2023</title>
+    <script>
+        /* fecha de finalización del evento*/
+            var countdownDate = new Date("2023-06-15T00:00:00").getTime();
+
+                      var countdownTimer = setInterval(function () {
+               
+                var now = new Date().getTime();
+               
+                var timeRemaining = countdownDate - now;
+               
+                var days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+               
+                document.getElementById("days").innerHTML = formatTime(days);
+                document.getElementById("hours").innerHTML = formatTime(hours);
+                document.getElementById("minutes").innerHTML = formatTime(minutes);
+                document.getElementById("seconds").innerHTML = formatTime(seconds);
+
+                if (timeRemaining <= 0) {
+                    clearInterval(countdownTimer);
+                    
+                }
+            }, 1000);
+
+            function formatTime(time) {
+                return time < 10 ? "0" + time : time;
+            }
+    </script>
+
+</head>
+<body>
+    <header>
+    <img src="https://www.taxislibres.com.co/public/imagesNew/logo-escritorio.webp" alt="image" class="logo-app">
+      <h3>HACKATHON 2023</h3>
+      
+       <div>
+        <label form="Formulario_de_Inscripción">
+        <required name="Formulario_de_Inscripción" class="inline" /><a href="http://127.0.0.1:5500/Formulario.html"><button
+                class="btn">Registrate aquí</button></a>
+        </label>
+       </div>
+    </img>
+      <nav>
+       <ul>
+        <li><a href="#Que_es_hackathon?" >¿Qué es hackaton?</a></li>
+        <li><a href="#Donde_es?">¿Dónde es?</a></li>
+        <li><a href="#Cual_es_el_objetivo_de_hackathon?" >¿Cuál es el objetivo de hackathon?</a></li>
+        <li><a href="#Premios">Premios</a></li>
+        </ul>
+      </nav>
+    </header>
+   <main id="main-doc">
+    <section id="Que_es_hackathon?" class="main-section">
+        <h4>¿Qué es hackathon?</h4>
+         <article>
+          <p>Es el evento que realiza la compañia Taxis Libres anualmente como es de tradición para crear una maratón de creacion en el que participan programadores, diseñadores, ingenieros, comunicadores, analistas de datos y demas perfiles relacionados con dicho tema para participar por grandes premios y reconocimientos.</p>
+         </article>
+    </section>
+    <section id="Cuando_es?" class="main-section">
+        <h4>Faltan</h4>
+        <article>
+            <p>Desde el 1 de Julio de 2023</p>
+            <div id="countdown">
+                <span id="days">00</span>: 
+                <span id="hours">00</span>: 
+                <span id="minutes">00</span>: 
+                <span id="seconds">00</span> 
+                <br>
+                <span id="days-label">Días</span>
+                <span id="hours-label">Horas</span>
+                <span id="minutes-label">Minutos</span>
+                <span id="seconds-label">Segundos</span>
+            </div> 
+        </article>
+    </section>
+    <section id="Donde_es?" class="main-section">
+        <h4>¿Donde es?</h4>
+         <article>
+            <p>El evento se realizara en Bogota-Colombia y se podra participar desde todo el mundo es decir, despues de la publicación de los concursantes se enviara un correo electronico con todas las indicaciones y caracterisitcas al correo electronico con el que se inscribieron y podran enviar sus proyectos desde cualquier parte del mundo.</p>
+         </article>
+    </section>
+    <section id="Cual_es_el_objetivo_de_hackathon?" class="main-section">
+        <h4>¿Cuál es el objetivo de Hackathon??</h4>
+         <article>
+            <p>El objetivo principal del evento que realiza la compañia Taxis Libres es ejecutar retos en movilidad en taxi en menos de tres (3) días.</p>
+         </article>
+    </section>
+    <section id="Premios" class="main-section">
+        <h4>Plan de Premios</h4>
+         <article>
+            <p>Estos son los grandes premios:</p>
+             <ul>
+                <h5>Primer lugar:</h5>
+                 <li> $8.000.000 COP</li>
+                 <li>Un celular Android</li>
+                 <li>50 viajes en taxi(empresa Taxis Libres 18.000 COP c/u).</li>
+                 <li>1 año de licencia Platzi</li>
+                <h5>Segundo lugar:</h5>
+                 <li> $3.500.000 COP</li>
+                 <li>Un celular Android</li>
+                 <li>25 viajes en taxi(empresa Taxis Libres 18.000 COP c/u).</li>
+                 <li>6 meses de licencia Platzi</li>
+                <h5>Tercer lugar:</h5>
+                 <li> $1.000.000 COP</li>
+                 <li>Un celular Android</li>
+                 <li>10 viajes en taxi(empresa Taxis Libres 18.000 COP c/u).</li>
+                 <li>3 meses de licencia Platzi</li>
+             </ul>
+         </article>
+    </section>
+    <section id="Formulario_de_Inscripción" class="main-section">
+        <label form="Formulario_de_Inscripción">
+            <required name="Formulario_de_Inscripción" class="inline" /><a href="http://127.0.0.1:5500/Formulario.html"><button
+            class="button">Registrate aquí</button></a>
+        </label>
+    </section>
+    <section id="Patrocinadores_oficiales" class="main-section">
+        <h4>Patrocinadores oficiales</h4>
+         <div class="Patrocinadores">
+            <img src="https://uniandes.edu.co/sites/default/files/logo-mobile.png" alt="imagen" class="logo-andes">
+            <img src="https://urosario.edu.co/themes/custom/urosario/images/logo.svg" alt="imagen" class="logo-rosario">
+            <img src="	https://www.movilidadbogota.gov.co/web/sites/default/files/logo-sdm.png" alt="imagen" class="logo-movilidad">
+            <img src="https://www.efecty.com.co/WebApi//uploads/logo-efecty_nuevo-01.png" alt="imagen" class="logo-efecty">
+            <img src="https://static.platzi.com/media/uploads/thumbnail_logo_platzi_ng_877f62a9f1.png" alt="imagen" class="logo-platzi">
+         </div>
+    </section>
+    
+   </main>
+     
+</body>
+</html>
+

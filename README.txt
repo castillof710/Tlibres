@@ -1,5 +1,3 @@
-# Tlibres
-Proyecto
 PROYECTO TAXIS LIBRES - HACKATHON 2023
 
 Este proyecto es un sitio web para promover y proporcionar información sobre el "Hackathon 2023" organizado por la compañía Taxis Libres. Un hackathon es un evento en el que participantes con habilidades técnicas, como programadores, diseñadores y otros profesionales relacionados, se reúnen para colaborar intensivamente en proyectos de software.

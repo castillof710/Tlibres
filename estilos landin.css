@@ -1,0 +1,204 @@
+html {
+   font-size: 100%; 
+   background-color: #fff;
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120%;
+    font-style: inherit;
+    font-weight: inherit; 
+    line-height: 1.5;
+    background-color: #ffffff;
+    color:#1b1b32;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    vertical-align: baseline;
+    margin: 0;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    
+        
+}
+header {
+    width: 100%;
+    height: 180px;
+    background-color: #1b1b32;
+    align-items: center;
+    top: 10px;
+    color: #fff;
+    
+    
+}
+
+.logo-app {
+    display: block;
+    position: absolute;
+    height: 46px;
+    margin-top: 8px;
+    margin-left: 150px;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    
+    
+    
+}
+
+
+h3 {
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 0;
+    font-family: Agency FB;
+    
+    
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    border: 2px solid #c0d01e;
+    border-width: 5px;
+    border-radius: 15px;
+    padding: 2px 20px;
+    
+    
+    
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 50%;
+}
+
+nav>ul>li {
+    color: #000;
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+    color: #fff;
+}
+
+nav>ul>li:hover {
+    background-color: #dfdfe2;
+    color: #1b1b32;
+    cursor: pointer;
+}
+
+li>a {
+    color: inherit;
+    text-decoration: none;
+}
+.li {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+/* nav */
+.nav {
+    width: 50%;
+    max-width: 300px;
+    height: 50px;
+}
+.container {
+    position: relative;
+    height: 200px;
+}
+
+.btn {
+    position: absolute;
+    top: 10px;
+    right: 160px;
+    
+}
+/* boton de inscripción */
+
+button {
+    border: 2px solid #c0d01e;
+    padding: 15px;
+    background-color: #c0d01e;
+    color: #000;
+    text-transform: uppercase;
+    font-family: 'calibri', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 50px;
+    margin: 0 auto;
+    height: 60px;
+    cursor: pointer;
+    
+}
+
+.button {
+    
+}
+/* Contador */
+#countdown {
+    font-size: 50px;
+    text-align: center;
+    
+    
+}
+
+#countdown span {
+    font-size: 3.2rem;
+    display: inline-flex;
+    padding: 2px 17.5px 0px;
+    
+
+
+}
+
+#countdown br {
+    line-height: 10px;
+}
+
+#countdown span[id$="-label"] {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 2px 11.2px 0px;
+    
+}
+
+#Patrocinadores {
+    height: 10%;
+
+}
+
+
+@media (max-width: 600px) #countdown {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+ @media (min-width: 780px) {
+     body {
+         font-size: 16px;
+     }
+ }
+
+ @media (min-width: 1200px) {
+     body {
+         font-size: 18px;
+     }
+ }
